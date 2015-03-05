@@ -1,0 +1,12 @@
+from math import *
+x=float(input("Enter the number of light years a planet is away: "))       #Where the user enter the light years
+v=float(input("Enter the fraction of the speed of light a spaceship is traveling: "))      #Where the user enter the speed
+years=x*(0.99675)     #calulates the actual years it takes to get to another planet
+gamma=1/(sqrt(1-v**2))     #the constant calulated
+time=years*gamma           #time on Earth
+print'The time it took the spaceship to reach the planet is',years,'years'
+print'The time it has passed on Earth is',time,'years'
+
+#when v=0.90c, the time it passed on Earth is 22.87 years
+#when v=0.98c, the time it passed on Earth is 50.09 years
+#when v=0.999c, the time it passed on Earth is 222.9 years
