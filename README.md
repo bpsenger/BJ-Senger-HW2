@@ -4,4 +4,4 @@ Problem 1 finds the time in years it has passed on Earth with a spaceship travel
 
 Problem 2 uses a formula for finding a binding energy of an atom and its nucleon from the atom.
 
-Problem 3 uses the quadratic formula to find two values of x. 
+
